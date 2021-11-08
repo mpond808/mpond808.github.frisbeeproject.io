@@ -5,14 +5,32 @@
     <title> Ultimate Frisbee 101 </title>
 <body>
   <h1> Ultimate Frisbee 101 </h1>
-<ul>
-  <li>
-      <a href="pictures.asp">Pictures</a>
-    </li>
-   <li>
-       <a href="personalhistory.asp">Personal History</a>
-    </li>
-</ul>
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+    
     <p> This is a website designed to showcase the sport of Ultimate Frisbee. Frisbee is a sport where two teams
     attempt to navigate towards an endzone by passing amongst each other.</p>
     </body>  
