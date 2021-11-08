@@ -3,8 +3,22 @@ h1 {
   text-align: center;
 }
 
+li {
+  display: inline;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
 p {
-  color: purple;
+  color: light-blue;
   margin-left: 10 px;
   margin-right: 100 px;
   margin-top: 0 px;
